@@ -6,7 +6,8 @@ CSS Code Guideline
 
 <table width="50%">
 <tbody><tr><td> </td><td> WinXP </td><td> Win7 </td><td> OS X 
-</td></tr><tr><td> IE9 </td><td> B  </td><td> B </td><td> 
+</td></tr><tr><td> IE10 </td><td> A  </td><td> A </td><td> 
+</td></tr><tr><td> IE9 </td><td> A  </td><td> A </td><td> 
 </td></tr><tr><td> IE8 </td><td> A  </td><td> A </td><td> 
 </td></tr><tr><td> IE7 </td><td> B  </td><td> B </td><td> 
 </td></tr><tr><td> IE6 </td><td> C </td><td> C </td><td> 
@@ -147,10 +148,10 @@ CSS3中逗号分隔的长属性值：
       */
 ```
 
-SCSS中支持单行注释
+SCSS中支持单行注释(scss模板在所有产品的样式稳定后会逐步引入，便于开发css和管理，简化css的书写，使其结构化)
 
 ```css
-    // mod: doulist
+    // mod: nav or webcloud or panel
 ```
 
  * 7-2. 规则分类放在一起。通用规则在具体业务规则的前面。如：
