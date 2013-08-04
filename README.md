@@ -51,12 +51,11 @@ CSS Code Guideline
 </td></tr><tr><td> 云播放 </td><td style="text-align: left"> /style/vod/ 
 </td></tr><tr><td> 推推 </td><td style="text-align: left"> /style/tt/ 
 </td></tr><tr><td> 小二 </td><td style="text-align: left"> /style/xiaoer/ 
-</td></tr><tr><td style="text-align: center">  ...  </td><td style="text-align: left"> /css/产品名称 
+</td></tr><tr><td style="text-align: center">  ...  </td><td style="text-align: left"> /style/产品名称 
 </td></tr></tbody></table>
 
  * 3-3. 外联CSS文件适用于全站级和产品级通用的大文件。
- * 3-4. 内联CSS文件适用于在一个或几个页面共用的CSS。利用模板系统支持的istatic方法引用。
- * 3-5. 模块依赖的CSS和模块放在一起。利用模板系统支持的collect_css过滤器实现。
+ * 3-4. 内联CSS文件适用于在一个或几个页面共用的CSS。
 
 4. CSS的模块化组织 
 ---------------------
